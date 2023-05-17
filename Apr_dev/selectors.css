@@ -36,3 +36,18 @@ pre + p{
 h1 ~ h4{
     background-color: aqua;
 }
+/* button:hover{
+    background-color: yellowgreen;   
+} */
+button.submit-btn:hover{
+   background-color: yellowgreen;
+}
+/* span:hover{
+    color: rgb(241, 69, 187);
+    font-size: 30px;
+} */
+
+span.span-hover:hover{
+    color: rgb(241, 69, 187);
+    font-size: 30px;
+}
