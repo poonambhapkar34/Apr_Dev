@@ -3,10 +3,36 @@ p{
     font-size: 30px;
 }
 .cls-selector{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
 }
 #h1container{
     text-align: center;
     font-size: 30px;
+}
+h2,h3{
+    padding: 2px 2px;
+    text-align: center;
+    color: aquamarine;
+}
+
+*{
+    padding: 12px 22px;
+    border: 1px solid blue;
+    text-align: center;
+    color: rgb(12, 239, 164);
+}
+
+div p{
+    color: yellow;
+}
+
+div > h1{
+    color: yellowgreen;
+}
+pre + p{
+    color: violet;
+}
+h1 ~ h4{
+    background-color: aqua;
 }
